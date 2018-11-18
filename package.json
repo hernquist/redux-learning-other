@@ -6,7 +6,8 @@
     "node": ">=8.8.X"
   },
   "scripts": {
-    "seed-data": "node ./lib/scripts/seed-data.js"
+    "seed-data": "node ./lib/scripts/seed-data.js",
+    "add-indexes": "node ./lib/scripts/add-indexes.js"
   },
   "author": "Frank Zondlo <frank_zondlo@homedepot.com>",
   "license": "MIT",
