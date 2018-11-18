@@ -2,9 +2,15 @@
   "name": "lunch-and-learn",
   "version": "1.0.0",
   "main": "index.js",
+  "engines": {
+    "node": ">=8.8.X"
+  },
+  "scripts": {
+    "seed-data": "node ./lib/scripts/seed-data.js"
+  },
   "author": "Frank Zondlo <frank_zondlo@homedepot.com>",
   "license": "MIT",
   "dependencies": {
-    "mongo": "^0.1.0"
+    "mongodb": "2.2.X"
   }
 }
