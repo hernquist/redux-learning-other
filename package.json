@@ -1,0 +1,10 @@
+{
+  "name": "lunch-and-learn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Frank Zondlo <frank_zondlo@homedepot.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mongo": "^0.1.0"
+  }
+}
