@@ -8,10 +8,12 @@
   "scripts": {
     "seed-data": "node ./lib/scripts/seed-data.js",
     "add-indexes": "node ./lib/scripts/add-indexes.js"
+    "arrays-vs-objects-lookup": "node ./lib/scripts/arrays-vs-objects-lookup"
   },
   "author": "Frank Zondlo <frank_zondlo@homedepot.com>",
   "license": "MIT",
   "dependencies": {
-    "mongodb": "2.2.X"
+    "mongodb": "2.2.X",
+    "performance": "^1.1.1"
   }
 }
