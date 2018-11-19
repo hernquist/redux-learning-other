@@ -7,7 +7,9 @@
   },
   "scripts": {
     "seed-data": "node ./lib/scripts/seed-data.js",
-    "add-indexes": "node ./lib/scripts/add-indexes.js"
+    "add-indexes": "node ./lib/scripts/add-indexes.js",
+    "sets-vs-arrays": "node ./lib/scripts/sets-vs-arrays.js",
+    "profile-mongo-lookup": "node ./lib/scripts/profile-mongo-lookup.js",
     "arrays-vs-objects-lookup": "node ./lib/scripts/arrays-vs-objects-lookup"
   },
   "author": "Frank Zondlo <frank_zondlo@homedepot.com>",
